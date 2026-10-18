@@ -1,0 +1,15 @@
+{
+  "started": "2026-10-18T13:06:44+00:00",
+  "model": "claude-sonnet-5-5",
+  "rep": 2,
+  "timeouts_s": {
+    "single": 120,
+    "scout": 240,
+    "worker": 600
+  },
+  "claude_version": "2.1.302 (Claude Code)",
+  "nav_repo_sha": "931cb4de72b140a39130e8c7c06a86f25bf6c310",
+  "concurrency": 4,
+  "finished": "2026-10-18T13:09:12+00:00",
+  "last_session_wall_s": 147.7
+}

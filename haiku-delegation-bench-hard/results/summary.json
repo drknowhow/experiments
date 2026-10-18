@@ -1,0 +1,1193 @@
+{
+  "subjects": {
+    "Haiku 5.5": {
+      "reps": [
+        1,
+        2,
+        3
+      ],
+      "n_rows": 180,
+      "categories": {
+        "log-join": {
+          "n_items": 10,
+          "mean": 0.9666666666666667,
+          "rep_means": [
+            1.0,
+            1.0,
+            0.9
+          ],
+          "min": 0.9,
+          "max": 1.0,
+          "cost_per_call": 0.003309906666666667,
+          "wall_s": 7.501946716709062,
+          "turns": 1.0,
+          "thinking_tokens": 1027.4,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "nav-multihop": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.002309470666666667,
+          "wall_s": 10.113873003306798,
+          "turns": 5.966666666666667,
+          "thinking_tokens": 283.9,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 6,
+          "over_abstains": 0
+        },
+        "review-subtle": {
+          "n_items": 10,
+          "mean": 0.9666666666666667,
+          "rep_means": [
+            0.95,
+            0.95,
+            1.0
+          ],
+          "min": 0.95,
+          "max": 1.0,
+          "cost_per_call": 0.0008421186666666667,
+          "wall_s": 8.022007523314096,
+          "turns": 1.0,
+          "thinking_tokens": 682.3666666666667,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "edit-multifile": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.002101968666666667,
+          "wall_s": 12.973311520003092,
+          "turns": 9.033333333333333,
+          "thinking_tokens": 465.46666666666664,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "thread-supersede": {
+          "n_items": 10,
+          "mean": 0.9744433333333333,
+          "rep_means": [
+            0.9800000000000001,
+            0.9800000000000001,
+            0.96333
+          ],
+          "min": 0.96333,
+          "max": 0.9800000000000001,
+          "cost_per_call": 0.0007058193333333334,
+          "wall_s": 6.752361513340535,
+          "turns": 1.0,
+          "thinking_tokens": 676.8666666666667,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 24,
+          "over_abstains": 0
+        },
+        "abstain-nearmiss": {
+          "n_items": 10,
+          "mean": 0.9,
+          "rep_means": [
+            0.9,
+            0.9,
+            0.9
+          ],
+          "min": 0.9,
+          "max": 0.9,
+          "cost_per_call": 0.0004110333333333333,
+          "wall_s": 3.6940340032956254,
+          "turns": 1.0,
+          "thinking_tokens": 102.33333333333333,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 3,
+          "invention_chances": 18,
+          "over_abstains": 0
+        }
+      },
+      "per_rep": [
+        {
+          "rep": 1,
+          "n": 60,
+          "macro": 0.9716666666666667,
+          "micro": 0.9716666666666666,
+          "cost_usd": 0.15189574,
+          "wall_s_sum": 492.917169400258
+        },
+        {
+          "rep": 2,
+          "n": 60,
+          "macro": 0.9716666666666667,
+          "micro": 0.9716666666666666,
+          "cost_usd": 0.06834271,
+          "wall_s_sum": 495.03686779970303
+        },
+        {
+          "rep": 3,
+          "n": 60,
+          "macro": 0.9605549999999999,
+          "micro": 0.9605549999999999,
+          "cost_usd": 0.07017107,
+          "wall_s_sum": 483.7719911991153
+        }
+      ],
+      "macro": 0.9679627777777777,
+      "macro_min": 0.9605549999999999,
+      "macro_max": 0.9716666666666667,
+      "micro": 0.9679627777777777,
+      "cost_per_run": 0.09680317333333333,
+      "cost_per_call": 0.0016133862222222225,
+      "cost_per_call_by_mode": {
+        "single": 0.0013172195,
+        "scout": 0.002309470666666667,
+        "worker": 0.002101968666666667
+      },
+      "input_tokens": 16947.766666666666,
+      "output_tokens": 1210.1055555555556,
+      "thinking_tokens": 539.7222222222222,
+      "wall_s": 8.176255713328201,
+      "format_failures": 0,
+      "call_errors": [],
+      "invention_rate": 0.0625,
+      "invention_ci": [
+        0.021483232908389285,
+        0.1683543805494635
+      ],
+      "inventions": 3,
+      "invention_chances": 48,
+      "invented_items": [
+        "N04"
+      ],
+      "over_abstain_rate": 0.0,
+      "over_abstain_ci": [
+        0.0,
+        0.09641862859446367
+      ],
+      "over_abstains": 0,
+      "abstain_chances": 36,
+      "pass_rate": 0.9666666666666667,
+      "pass_ci": [
+        0.886362257256914,
+        0.9908106807438021
+      ],
+      "passed": 58,
+      "n_items": 60,
+      "rep_agreement": 0.9333333333333333,
+      "agentic_turns": 7.5,
+      "model_mismatches": []
+    },
+    "Sonnet 5.5": {
+      "reps": [
+        1,
+        2,
+        3
+      ],
+      "n_rows": 180,
+      "categories": {
+        "log-join": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.06456598,
+          "wall_s": 8.463270206633023,
+          "turns": 1.0,
+          "thinking_tokens": 575.3,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "nav-multihop": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.025207706666666666,
+          "wall_s": 11.331824140010092,
+          "turns": 4.8,
+          "thinking_tokens": 18.833333333333332,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 6,
+          "over_abstains": 0
+        },
+        "review-subtle": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.01486848,
+          "wall_s": 10.250695599980341,
+          "turns": 1.0,
+          "thinking_tokens": 468.8333333333333,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "edit-multifile": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.03328127,
+          "wall_s": 16.117567909982366,
+          "turns": 9.866666666666667,
+          "thinking_tokens": 47.1,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "thread-supersede": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.011579126666666667,
+          "wall_s": 7.700599050017384,
+          "turns": 1.0,
+          "thinking_tokens": 390.73333333333335,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 24,
+          "over_abstains": 0
+        },
+        "abstain-nearmiss": {
+          "n_items": 10,
+          "mean": 0.9666666666666667,
+          "rep_means": [
+            1.0,
+            0.9,
+            1.0
+          ],
+          "min": 0.9,
+          "max": 1.0,
+          "cost_per_call": 0.008244246666666667,
+          "wall_s": 4.206072963347348,
+          "turns": 1.0,
+          "thinking_tokens": 66.23333333333333,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 1,
+          "invention_chances": 18,
+          "over_abstains": 0
+        }
+      },
+      "per_rep": [
+        {
+          "rep": 1,
+          "n": 60,
+          "macro": 1.0,
+          "micro": 1.0,
+          "cost_usd": 2.8505337,
+          "wall_s_sum": 595.9184997007251
+        },
+        {
+          "rep": 2,
+          "n": 60,
+          "macro": 0.9833333333333334,
+          "micro": 0.9833333333333333,
+          "cost_usd": 0.9499183999999999,
+          "wall_s_sum": 584.5625261988025
+        },
+        {
+          "rep": 3,
+          "n": 60,
+          "macro": 1.0,
+          "micro": 1.0,
+          "cost_usd": 0.9319522,
+          "wall_s_sum": 561.6198701995891
+        }
+      ],
+      "macro": 0.9944444444444445,
+      "macro_min": 0.9833333333333334,
+      "macro_max": 1.0,
+      "micro": 0.9944444444444445,
+      "cost_per_run": 1.5774681,
+      "cost_per_call": 0.026291135,
+      "cost_per_call_by_mode": {
+        "single": 0.024814458333333334,
+        "scout": 0.025207706666666666,
+        "worker": 0.03328127
+      },
+      "input_tokens": 15013.972222222223,
+      "output_tokens": 885.3055555555555,
+      "thinking_tokens": 261.1722222222222,
+      "wall_s": 9.67833831166176,
+      "format_failures": 0,
+      "call_errors": [],
+      "invention_rate": 0.020833333333333332,
+      "invention_ci": [
+        0.003687110977510649,
+        0.10899217995251861
+      ],
+      "inventions": 1,
+      "invention_chances": 48,
+      "invented_items": [
+        "N04"
+      ],
+      "over_abstain_rate": 0.0,
+      "over_abstain_ci": [
+        0.0,
+        0.09641862859446367
+      ],
+      "over_abstains": 0,
+      "abstain_chances": 36,
+      "pass_rate": 1.0,
+      "pass_ci": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "passed": 60,
+      "n_items": 60,
+      "rep_agreement": 0.9833333333333333,
+      "agentic_turns": 7.333333333333333,
+      "model_mismatches": []
+    },
+    "Opus 5.5": {
+      "reps": [
+        1
+      ],
+      "n_rows": 60,
+      "categories": {
+        "log-join": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.3301996,
+          "wall_s": 10.444198720017448,
+          "turns": 1.0,
+          "thinking_tokens": 451.7,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "nav-multihop": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.05905536,
+          "wall_s": 18.05818101002369,
+          "turns": 4.7,
+          "thinking_tokens": 81.6,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 2,
+          "over_abstains": 0
+        },
+        "review-subtle": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.0434776,
+          "wall_s": 13.508240239904262,
+          "turns": 1.0,
+          "thinking_tokens": 537.0,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "edit-multifile": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.07493812000000001,
+          "wall_s": 21.85729889997747,
+          "turns": 9.8,
+          "thinking_tokens": 102.6,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 0,
+          "over_abstains": 0
+        },
+        "thread-supersede": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.027679199999999998,
+          "wall_s": 7.517277439963072,
+          "turns": 1.0,
+          "thinking_tokens": 194.4,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 8,
+          "over_abstains": 0
+        },
+        "abstain-nearmiss": {
+          "n_items": 10,
+          "mean": 1.0,
+          "rep_means": [
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0,
+          "cost_per_call": 0.034193600000000005,
+          "wall_s": 5.371313060051762,
+          "turns": 1.0,
+          "thinking_tokens": 38.6,
+          "format_failures": 0,
+          "call_errors": 0,
+          "inventions": 0,
+          "invention_chances": 6,
+          "over_abstains": 0
+        }
+      },
+      "per_rep": [
+        {
+          "rep": 1,
+          "n": 60,
+          "macro": 1.0,
+          "micro": 1.0,
+          "cost_usd": 5.6954348,
+          "wall_s_sum": 767.565093699377
+        }
+      ],
+      "macro": 1.0,
+      "macro_min": 1.0,
+      "macro_max": 1.0,
+      "micro": 1.0,
+      "cost_per_run": 5.6954348,
+      "cost_per_call": 0.09492391333333333,
+      "cost_per_call_by_mode": {
+        "single": 0.1088875,
+        "scout": 0.05905536,
+        "worker": 0.07493812000000001
+      },
+      "input_tokens": 15507.216666666667,
+      "output_tokens": 864.8166666666667,
+      "thinking_tokens": 234.31666666666666,
+      "wall_s": 12.792751561656283,
+      "format_failures": 0,
+      "call_errors": [],
+      "invention_rate": 0.0,
+      "invention_ci": [
+        0.0,
+        0.1936076805344365
+      ],
+      "inventions": 0,
+      "invention_chances": 16,
+      "invented_items": [],
+      "over_abstain_rate": 0.0,
+      "over_abstain_ci": [
+        2.7755575615628914e-17,
+        0.24249400665524085
+      ],
+      "over_abstains": 0,
+      "abstain_chances": 12,
+      "pass_rate": 1.0,
+      "pass_ci": [
+        0.93982814785791,
+        0.9999999999999998
+      ],
+      "passed": 60,
+      "n_items": 60,
+      "rep_agreement": null,
+      "agentic_turns": 7.25,
+      "model_mismatches": []
+    }
+  },
+  "item_means": {
+    "Haiku 5.5": {
+      "J01": 1.0,
+      "J04": 1.0,
+      "J03": 1.0,
+      "J02": 1.0,
+      "J07": 1.0,
+      "J06": 1.0,
+      "J05": 0.6666666666666666,
+      "J08": 1.0,
+      "J09": 1.0,
+      "J10": 1.0,
+      "H01": 1.0,
+      "H03": 1.0,
+      "H04": 1.0,
+      "H02": 1.0,
+      "H05": 1.0,
+      "H06": 1.0,
+      "H07": 1.0,
+      "H08": 1.0,
+      "N1": 1.0,
+      "N2": 1.0,
+      "R01": 1.0,
+      "R03": 1.0,
+      "R02": 0.8333333333333334,
+      "R05": 1.0,
+      "R04": 1.0,
+      "R06": 1.0,
+      "R07": 1.0,
+      "R08": 0.8333333333333334,
+      "C1": 1.0,
+      "C2": 1.0,
+      "M02": 1.0,
+      "M01": 1.0,
+      "M04": 1.0,
+      "M03": 1.0,
+      "M05": 1.0,
+      "M07": 1.0,
+      "M08": 1.0,
+      "M09": 1.0,
+      "M06": 1.0,
+      "T01": 1.0,
+      "T02": 0.9444333333333333,
+      "T03": 1.0,
+      "T04": 1.0,
+      "M10": 1.0,
+      "T06": 1.0,
+      "T05": 0.8000000000000002,
+      "T07": 1.0,
+      "T08": 1.0,
+      "T09": 1.0,
+      "N01": 1.0,
+      "N02": 1.0,
+      "T10": 1.0,
+      "N03": 1.0,
+      "N06": 1.0,
+      "N04": 0.0,
+      "N05": 1.0,
+      "N07": 1.0,
+      "N09": 1.0,
+      "N08": 1.0,
+      "N10": 1.0
+    },
+    "Sonnet 5.5": {
+      "J01": 1.0,
+      "J02": 1.0,
+      "J03": 1.0,
+      "J04": 1.0,
+      "J07": 1.0,
+      "J06": 1.0,
+      "J08": 1.0,
+      "J05": 1.0,
+      "J10": 1.0,
+      "J09": 1.0,
+      "H02": 1.0,
+      "H01": 1.0,
+      "H04": 1.0,
+      "H03": 1.0,
+      "H05": 1.0,
+      "H07": 1.0,
+      "H06": 1.0,
+      "H08": 1.0,
+      "N2": 1.0,
+      "R01": 1.0,
+      "R02": 1.0,
+      "R03": 1.0,
+      "N1": 1.0,
+      "R05": 1.0,
+      "R04": 1.0,
+      "R06": 1.0,
+      "R07": 1.0,
+      "R08": 1.0,
+      "C1": 1.0,
+      "C2": 1.0,
+      "M01": 1.0,
+      "M02": 1.0,
+      "M04": 1.0,
+      "M03": 1.0,
+      "M05": 1.0,
+      "M08": 1.0,
+      "M06": 1.0,
+      "M07": 1.0,
+      "T01": 1.0,
+      "T02": 1.0,
+      "M09": 1.0,
+      "M10": 1.0,
+      "T03": 1.0,
+      "T04": 1.0,
+      "T06": 1.0,
+      "T08": 1.0,
+      "T05": 1.0,
+      "T09": 1.0,
+      "T07": 1.0,
+      "N01": 1.0,
+      "N02": 1.0,
+      "T10": 1.0,
+      "N03": 1.0,
+      "N04": 0.6666666666666666,
+      "N05": 1.0,
+      "N07": 1.0,
+      "N06": 1.0,
+      "N08": 1.0,
+      "N10": 1.0,
+      "N09": 1.0
+    },
+    "Opus 5.5": {
+      "J01": 1.0,
+      "J04": 1.0,
+      "J02": 1.0,
+      "J03": 1.0,
+      "J05": 1.0,
+      "J08": 1.0,
+      "J06": 1.0,
+      "J10": 1.0,
+      "J07": 1.0,
+      "J09": 1.0,
+      "H04": 1.0,
+      "H02": 1.0,
+      "H05": 1.0,
+      "H03": 1.0,
+      "H01": 1.0,
+      "H07": 1.0,
+      "N1": 1.0,
+      "H06": 1.0,
+      "N2": 1.0,
+      "H08": 1.0,
+      "R01": 1.0,
+      "R03": 1.0,
+      "R05": 1.0,
+      "R02": 1.0,
+      "R04": 1.0,
+      "R08": 1.0,
+      "R06": 1.0,
+      "C1": 1.0,
+      "R07": 1.0,
+      "C2": 1.0,
+      "M01": 1.0,
+      "M02": 1.0,
+      "M03": 1.0,
+      "M04": 1.0,
+      "M05": 1.0,
+      "M06": 1.0,
+      "M07": 1.0,
+      "T01": 1.0,
+      "M08": 1.0,
+      "T02": 1.0,
+      "T03": 1.0,
+      "M09": 1.0,
+      "T04": 1.0,
+      "T06": 1.0,
+      "M10": 1.0,
+      "T05": 1.0,
+      "T08": 1.0,
+      "T07": 1.0,
+      "T09": 1.0,
+      "T10": 1.0,
+      "N01": 1.0,
+      "N02": 1.0,
+      "N03": 1.0,
+      "N04": 1.0,
+      "N06": 1.0,
+      "N05": 1.0,
+      "N08": 1.0,
+      "N07": 1.0,
+      "N09": 1.0,
+      "N10": 1.0
+    }
+  },
+  "item_pass": {
+    "Haiku 5.5": {
+      "J01": true,
+      "J04": true,
+      "J03": true,
+      "J02": true,
+      "J07": true,
+      "J06": true,
+      "J05": true,
+      "J08": true,
+      "J09": true,
+      "J10": true,
+      "H01": true,
+      "H03": true,
+      "H04": true,
+      "H02": true,
+      "H05": true,
+      "H06": true,
+      "H07": true,
+      "H08": true,
+      "N1": true,
+      "N2": true,
+      "R01": true,
+      "R03": true,
+      "R02": true,
+      "R05": true,
+      "R04": true,
+      "R06": true,
+      "R07": true,
+      "R08": true,
+      "C1": true,
+      "C2": true,
+      "M02": true,
+      "M01": true,
+      "M04": true,
+      "M03": true,
+      "M05": true,
+      "M07": true,
+      "M08": true,
+      "M09": true,
+      "M06": true,
+      "T01": true,
+      "T02": true,
+      "T03": true,
+      "T04": true,
+      "M10": true,
+      "T06": true,
+      "T05": false,
+      "T07": true,
+      "T08": true,
+      "T09": true,
+      "N01": true,
+      "N02": true,
+      "T10": true,
+      "N03": true,
+      "N06": true,
+      "N04": false,
+      "N05": true,
+      "N07": true,
+      "N09": true,
+      "N08": true,
+      "N10": true
+    },
+    "Sonnet 5.5": {
+      "J01": true,
+      "J02": true,
+      "J03": true,
+      "J04": true,
+      "J07": true,
+      "J06": true,
+      "J08": true,
+      "J05": true,
+      "J10": true,
+      "J09": true,
+      "H02": true,
+      "H01": true,
+      "H04": true,
+      "H03": true,
+      "H05": true,
+      "H07": true,
+      "H06": true,
+      "H08": true,
+      "N2": true,
+      "R01": true,
+      "R02": true,
+      "R03": true,
+      "N1": true,
+      "R05": true,
+      "R04": true,
+      "R06": true,
+      "R07": true,
+      "R08": true,
+      "C1": true,
+      "C2": true,
+      "M01": true,
+      "M02": true,
+      "M04": true,
+      "M03": true,
+      "M05": true,
+      "M08": true,
+      "M06": true,
+      "M07": true,
+      "T01": true,
+      "T02": true,
+      "M09": true,
+      "M10": true,
+      "T03": true,
+      "T04": true,
+      "T06": true,
+      "T08": true,
+      "T05": true,
+      "T09": true,
+      "T07": true,
+      "N01": true,
+      "N02": true,
+      "T10": true,
+      "N03": true,
+      "N04": true,
+      "N05": true,
+      "N07": true,
+      "N06": true,
+      "N08": true,
+      "N10": true,
+      "N09": true
+    },
+    "Opus 5.5": {
+      "J01": true,
+      "J04": true,
+      "J02": true,
+      "J03": true,
+      "J05": true,
+      "J08": true,
+      "J06": true,
+      "J10": true,
+      "J07": true,
+      "J09": true,
+      "H04": true,
+      "H02": true,
+      "H05": true,
+      "H03": true,
+      "H01": true,
+      "H07": true,
+      "N1": true,
+      "H06": true,
+      "N2": true,
+      "H08": true,
+      "R01": true,
+      "R03": true,
+      "R05": true,
+      "R02": true,
+      "R04": true,
+      "R08": true,
+      "R06": true,
+      "C1": true,
+      "R07": true,
+      "C2": true,
+      "M01": true,
+      "M02": true,
+      "M03": true,
+      "M04": true,
+      "M05": true,
+      "M06": true,
+      "M07": true,
+      "T01": true,
+      "M08": true,
+      "T02": true,
+      "T03": true,
+      "M09": true,
+      "T04": true,
+      "T06": true,
+      "M10": true,
+      "T05": true,
+      "T08": true,
+      "T07": true,
+      "T09": true,
+      "T10": true,
+      "N01": true,
+      "N02": true,
+      "N03": true,
+      "N04": true,
+      "N06": true,
+      "N05": true,
+      "N08": true,
+      "N07": true,
+      "N09": true,
+      "N10": true
+    }
+  },
+  "haiku_vs_sonnet": {
+    "categories": {
+      "log-join": {
+        "haiku": 0.9666666666666667,
+        "sonnet": 1.0,
+        "opus": 1.0,
+        "ratio": 0.9666666666666667,
+        "gap": -0.03333333333333334,
+        "gap_lo": -0.1,
+        "gap_hi": 0.0,
+        "haiku_inventions": 0,
+        "sonnet_inventions": 0,
+        "cost_ratio": 19.50688841175783,
+        "route": "Haiku"
+      },
+      "nav-multihop": {
+        "haiku": 1.0,
+        "sonnet": 1.0,
+        "opus": 1.0,
+        "ratio": 1.0,
+        "gap": 0.0,
+        "gap_lo": 0.0,
+        "gap_hi": 0.0,
+        "haiku_inventions": 0,
+        "sonnet_inventions": 0,
+        "cost_ratio": 10.914928269277288,
+        "route": "Haiku"
+      },
+      "review-subtle": {
+        "haiku": 0.9666666666666667,
+        "sonnet": 1.0,
+        "opus": 1.0,
+        "ratio": 0.9666666666666667,
+        "gap": -0.033333333333333326,
+        "gap_lo": -0.08333333333333331,
+        "gap_hi": 0.0,
+        "haiku_inventions": 0,
+        "sonnet_inventions": 0,
+        "cost_ratio": 17.656038974712985,
+        "route": "Haiku"
+      },
+      "edit-multifile": {
+        "haiku": 1.0,
+        "sonnet": 1.0,
+        "opus": 1.0,
+        "ratio": 1.0,
+        "gap": 0.0,
+        "gap_lo": 0.0,
+        "gap_hi": 0.0,
+        "haiku_inventions": 0,
+        "sonnet_inventions": 0,
+        "cost_ratio": 15.833380643479304,
+        "route": "Haiku"
+      },
+      "thread-supersede": {
+        "haiku": 0.9744433333333333,
+        "sonnet": 1.0,
+        "opus": 1.0,
+        "ratio": 0.9744433333333333,
+        "gap": -0.02555666666666665,
+        "gap_lo": -0.06555666666666662,
+        "gap_hi": 0.0,
+        "haiku_inventions": 0,
+        "sonnet_inventions": 0,
+        "cost_ratio": 16.40522740002399,
+        "route": "Haiku"
+      },
+      "abstain-nearmiss": {
+        "haiku": 0.9,
+        "sonnet": 0.9666666666666667,
+        "opus": 1.0,
+        "ratio": 0.9310344827586207,
+        "gap": -0.06666666666666667,
+        "gap_lo": -0.2,
+        "gap_hi": 0.0,
+        "haiku_inventions": 3,
+        "sonnet_inventions": 1,
+        "cost_ratio": 20.057367610088395,
+        "route": "Haiku + check"
+      }
+    },
+    "macro_gap": [
+      -0.026481666666666664,
+      -0.054630000000000005,
+      -0.005555555555555557
+    ],
+    "mcnemar": {
+      "haiku_only": 0,
+      "sonnet_only": 2,
+      "both": 58,
+      "neither": 0,
+      "p_exact": 0.5
+    }
+  },
+  "hypotheses": {
+    "H1": {
+      "supported": false,
+      "evidence": {
+        "sonnet_minus_haiku_macro": 0.026,
+        "ci95": [
+          0.006,
+          0.055
+        ]
+      }
+    },
+    "H2": {
+      "supported": false,
+      "evidence": {
+        "opus_macro": 1.0,
+        "sonnet_macro": 0.994,
+        "tier_failed": true
+      }
+    },
+    "H3": {
+      "supported": true,
+      "evidence": {
+        "opus": 1.0,
+        "sonnet": 0.994,
+        "haiku": 0.968
+      }
+    },
+    "H4": {
+      "supported": false,
+      "evidence": {
+        "largest": [
+          "abstain-nearmiss"
+        ],
+        "gap": 0.067,
+        "by_category": {
+          "log-join": 0.033,
+          "nav-multihop": 0.0,
+          "review-subtle": 0.033,
+          "edit-multifile": 0.0,
+          "thread-supersede": 0.026,
+          "abstain-nearmiss": 0.067
+        }
+      }
+    },
+    "H5": {
+      "supported": true,
+      "evidence": {
+        "haiku": "3/48",
+        "sonnet": "1/48",
+        "haiku_ci95": [
+          0.021,
+          0.168
+        ],
+        "sonnet_ci95": [
+          0.004,
+          0.109
+        ]
+      }
+    },
+    "H6": {
+      "supported": false,
+      "evidence": {
+        "route_away_from_haiku": [
+          "abstain-nearmiss"
+        ]
+      }
+    },
+    "H7": {
+      "supported": true,
+      "evidence": {
+        "sonnet_over_haiku_cost_single": 18.8,
+        "scout": 10.9,
+        "worker": 15.8
+      }
+    }
+  },
+  "gold_check": [],
+  "post_hoc_sensitivity": {
+    "pre_registered": false,
+    "reasons": {
+      "N04": "every call flagged as an invention rejects the premise (a canary never pages, because canaries are excluded from the alert queries); none names a canary threshold",
+      "T05": "the gold reads \"Sure, no second shooter. That brings it to $3,100.\" as one counter-offer the client never accepted; reading \"Sure\" as accepting the removal, with only the new price left open, also fits the stated rule"
+    },
+    "variants": [
+      {
+        "excluded": [
+          "N04"
+        ],
+        "macro": {
+          "Haiku 5.5": 0.9846294444444444,
+          "Sonnet 5.5": 1.0,
+          "Opus 5.5": 1.0
+        },
+        "macro_gap": [
+          -0.015370555555555554,
+          -0.030555555555555558,
+          -0.003703888888888888
+        ],
+        "inventions": {
+          "Haiku 5.5": "0/45",
+          "Sonnet 5.5": "0/45",
+          "Opus 5.5": "0/15"
+        },
+        "route_away_from_haiku": [],
+        "hypotheses": {
+          "H1": false,
+          "H2": false,
+          "H3": true,
+          "H4": false,
+          "H5": false,
+          "H6": false,
+          "H7": true
+        }
+      },
+      {
+        "excluded": [
+          "N04",
+          "T05"
+        ],
+        "macro": {
+          "Haiku 5.5": 0.9878598765432098,
+          "Sonnet 5.5": 1.0,
+          "Opus 5.5": 1.0
+        },
+        "macro_gap": [
+          -0.012140123456790122,
+          -0.026029012345679014,
+          -0.001029012345679012
+        ],
+        "inventions": {
+          "Haiku 5.5": "0/45",
+          "Sonnet 5.5": "0/45",
+          "Opus 5.5": "0/15"
+        },
+        "route_away_from_haiku": [],
+        "hypotheses": {
+          "H1": false,
+          "H2": false,
+          "H3": true,
+          "H4": false,
+          "H5": false,
+          "H6": false,
+          "H7": true
+        }
+      }
+    ]
+  },
+  "routing_rule": {
+    "haiku_at_or_above": 0.95,
+    "check_at_or_above": 0.85
+  }
+}
