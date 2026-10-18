@@ -11,3 +11,5 @@ __pycache__/
 # Harness checks (rep 0) and run logs: never analysed, may carry local paths.
 haiku-delegation-bench/results/pilot/
 haiku-delegation-bench/results/logs/
+haiku-delegation-bench-hard/results/pilot/
+haiku-delegation-bench-hard/results/logs/
