@@ -1,0 +1,13 @@
+# Fixture checkouts are cloned at a pinned commit by each experiment's setup.
+.cache/
+
+# Private scan patterns for _lib/sanitize.py; they would leak what they guard.
+_lib/sanitize.private
+
+__pycache__/
+*.pyc
+*.tmp
+
+# Harness checks (rep 0) and run logs: never analysed, may carry local paths.
+haiku-delegation-bench/results/pilot/
+haiku-delegation-bench/results/logs/

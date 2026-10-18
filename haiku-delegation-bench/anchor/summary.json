@@ -1,0 +1,177 @@
+{
+  "set": "300 production emails, labels from Opus (private; aggregates only)",
+  "fields_seen": "subject, sender, first 1500 body characters",
+  "calls": "one email per call, claude -p, contract as system prompt",
+  "thin_class_threshold": 15,
+  "models": {
+    "claude-haiku-5-5": {
+      "n": 300,
+      "answered": 300,
+      "correct": 254,
+      "accuracy": 0.8467,
+      "accuracy_ci95": [
+        0.8015,
+        0.883
+      ],
+      "macro_f1_interpreted_classes": 0.8259,
+      "no_valid_label": 0,
+      "call_errors": 0,
+      "model_mismatches": 0,
+      "cost_per_call_usd": 0.00038,
+      "wall_s_per_call": 4.03,
+      "per_class": {
+        "receipt": {
+          "support": 13,
+          "predicted": 17,
+          "tp": 13,
+          "precision": 0.7647058823529411,
+          "recall": 1.0,
+          "f1": 0.8667,
+          "interpreted": false
+        },
+        "agent_actionable": {
+          "support": 44,
+          "predicted": 43,
+          "tp": 41,
+          "precision": 0.9534883720930233,
+          "recall": 0.9318181818181818,
+          "f1": 0.9425,
+          "interpreted": true
+        },
+        "action_required": {
+          "support": 34,
+          "predicted": 47,
+          "tp": 24,
+          "precision": 0.5106382978723404,
+          "recall": 0.7058823529411765,
+          "f1": 0.5926,
+          "interpreted": true
+        },
+        "calendar": {
+          "support": 13,
+          "predicted": 4,
+          "tp": 4,
+          "precision": 1.0,
+          "recall": 0.3076923076923077,
+          "f1": 0.4706,
+          "interpreted": false
+        },
+        "alert": {
+          "support": 79,
+          "predicted": 82,
+          "tp": 67,
+          "precision": 0.8170731707317073,
+          "recall": 0.8481012658227848,
+          "f1": 0.8323,
+          "interpreted": true
+        },
+        "newsletter": {
+          "support": 115,
+          "predicted": 105,
+          "tp": 103,
+          "precision": 0.9809523809523809,
+          "recall": 0.8956521739130435,
+          "f1": 0.9364,
+          "interpreted": true
+        },
+        "spam": {
+          "support": 2,
+          "predicted": 2,
+          "tp": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "interpreted": false
+        }
+      }
+    },
+    "claude-sonnet-5-5": {
+      "n": 300,
+      "answered": 300,
+      "correct": 275,
+      "accuracy": 0.9167,
+      "accuracy_ci95": [
+        0.8799,
+        0.9429
+      ],
+      "macro_f1_interpreted_classes": 0.9036,
+      "no_valid_label": 0,
+      "call_errors": 0,
+      "model_mismatches": 0,
+      "cost_per_call_usd": 0.00722,
+      "wall_s_per_call": 4.49,
+      "per_class": {
+        "receipt": {
+          "support": 13,
+          "predicted": 13,
+          "tp": 13,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "interpreted": false
+        },
+        "agent_actionable": {
+          "support": 44,
+          "predicted": 43,
+          "tp": 41,
+          "precision": 0.9534883720930233,
+          "recall": 0.9318181818181818,
+          "f1": 0.9425,
+          "interpreted": true
+        },
+        "action_required": {
+          "support": 34,
+          "predicted": 50,
+          "tp": 32,
+          "precision": 0.64,
+          "recall": 0.9411764705882353,
+          "f1": 0.7619,
+          "interpreted": true
+        },
+        "calendar": {
+          "support": 13,
+          "predicted": 6,
+          "tp": 5,
+          "precision": 0.8333333333333334,
+          "recall": 0.38461538461538464,
+          "f1": 0.5263,
+          "interpreted": false
+        },
+        "alert": {
+          "support": 79,
+          "predicted": 72,
+          "tp": 71,
+          "precision": 0.9861111111111112,
+          "recall": 0.8987341772151899,
+          "f1": 0.9404,
+          "interpreted": true
+        },
+        "newsletter": {
+          "support": 115,
+          "predicted": 114,
+          "tp": 111,
+          "precision": 0.9736842105263158,
+          "recall": 0.9652173913043478,
+          "f1": 0.9694,
+          "interpreted": true
+        },
+        "spam": {
+          "support": 2,
+          "predicted": 2,
+          "tp": 2,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "interpreted": false
+        }
+      }
+    }
+  },
+  "paired": {
+    "a": "claude-haiku-5-5",
+    "b": "claude-sonnet-5-5",
+    "only_a_right": 7,
+    "only_b_right": 28,
+    "mcnemar_exact_p": 0.0005
+  }
+}
